@@ -1,4 +1,4 @@
-def is_prime?(*nums)
+def prime?(*nums)
     nums.each do |num|
     i = 2
       while i < num
